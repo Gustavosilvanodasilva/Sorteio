@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="10dp">
+
+    <!-- Adicionando o botão do Instagram -->
+
+    <!-- Botão do Instagram com texto ao lado -->
+
+    <TextView
+        android:id="@+id/textViewTitle"
+        android:layout_width="411dp"
+        android:layout_height="64dp"
+        android:paddingBottom="16dp"
+        android:text="Redes Sociais"
+        android:textAlignment="center"
+        android:textSize="34sp"
+        android:textStyle="bold" />
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/layoutInstagram"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:orientation="vertical"
+        android:paddingTop="10dp">
+
+        <ImageButton
+            android:id="@+id/instagram_button"
+            android:layout_width="53dp"
+            android:layout_height="53dp"
+            android:background="@android:color/transparent"
+            android:contentDescription="Botão Instagram"
+            android:padding="0dp"
+            android:scaleType="centerInside"
+            android:src="@mipmap/instagram_foreground"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.0"
+            tools:src="@mipmap/instagram_foreground" />
+
+        <TextView
+            android:id="@+id/instagram_text"
+            android:layout_width="138dp"
+            android:layout_height="61dp"
+            android:text="Instagram"
+            android:textAlignment="center"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.291"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.0" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <!-- Adicionando o botão do Facebook -->
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/layoutFacebook"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:orientation="vertical"
+        android:paddingTop="10dp">
+
+        <ImageButton
+            android:id="@+id/facebook_button"
+            android:layout_width="53dp"
+            android:layout_height="61dp"
+            android:background="@android:color/transparent"
+            android:contentDescription="Botão Facebook"
+            android:padding="0dp"
+            android:scaleType="centerInside"
+            android:src="@mipmap/facebook_foreground"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.011"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.0"
+            tools:src="@mipmap/facebook_foreground" />
+
+        <TextView
+            android:id="@+id/facebook_text"
+            android:layout_width="138dp"
+            android:layout_height="30dp"
+            android:text="Facebook"
+            android:textAlignment="center"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.299"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.193" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <!-- Adicionando o botão do LinkedIn -->
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/layoutLinkedln"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:orientation="vertical"
+        android:paddingTop="10dp">
+
+        <ImageButton
+            android:id="@+id/linkedin_button"
+            android:layout_width="53dp"
+            android:layout_height="53dp"
+            android:background="@android:color/transparent"
+            android:contentDescription="Botão LinkedIn"
+            android:padding="0dp"
+            android:scaleType="centerInside"
+            android:src="@drawable/linkedin"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.0" />
+
+        <TextView
+            android:id="@+id/Linkedln_text"
+            android:layout_width="138dp"
+            android:layout_height="30dp"
+            android:text="Linkedln"
+            android:textAlignment="center"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.24"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.0" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <!-- Adicionando o botão do WhatsApp -->
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/layoutWhatsApp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:orientation="vertical"
+        android:paddingTop="10dp">
+
+        <ImageButton
+            android:id="@+id/whatsapp_button"
+            android:layout_width="53dp"
+            android:layout_height="53dp"
+            android:background="@android:color/transparent"
+            android:contentDescription="Botão WhatsApp"
+            android:padding="0dp"
+            android:scaleType="centerInside"
+            android:src="@mipmap/whatsapp_foreground"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.0"
+            tools:src="@mipmap/whatsapp_foreground" />
+
+        <TextView
+            android:id="@+id/WhatsApp_text"
+            android:layout_width="138dp"
+            android:layout_height="61dp"
+            android:text="WhatsApp"
+            android:textAlignment="center"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.275"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.0" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</LinearLayout>
